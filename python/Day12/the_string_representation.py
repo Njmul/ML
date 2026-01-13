@@ -1,0 +1,11 @@
+
+
+class User:
+    def __init__(self, name):
+        self.name = name
+    def __str__(self):
+
+        return f"{self.name} logged in"
+
+u = User("Jim")
+print(u)
